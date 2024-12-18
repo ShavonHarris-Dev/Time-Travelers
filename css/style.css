@@ -1,0 +1,45 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+.journal-entry {
+    margin-bottom: 2rem;
+}
+
+#entry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+}
+
+#entry-content {
+    min-height: 150px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0052a3;
+}
+
+.entries-list {
+    max-width: 600px;
+}
